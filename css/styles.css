@@ -5,12 +5,17 @@ body {
 }
 ul {
     list-style-type: none;
+    margin: 0;
+    padding-left: 0;
 }
 a {
     text-decoration: none;
 }
 button {
     background-color: #4d5ae5;
+}
+h1, h2, h3, h4, h5, h6, p {
+        margin: 0;
 }
 
 
@@ -36,7 +41,7 @@ button {
  
 
 
-.menu-links  {
+.nav-menu-links  {
         font-family:  inherit;
         font-weight: 500;
         font-size: 16px;
@@ -44,8 +49,8 @@ button {
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
-.menu-links:hover,
-.menu-links:focus {
+.nav-menu-links:hover,
+.nav-menu-links:focus {
         font-family: inherit;
         font-weight: 500;
         font-size: 16px;
@@ -126,7 +131,7 @@ button {
 
 
 
-.team-sect {
+.t-sect {
     background: #f4f4fd;
 }
 .t-header {
@@ -172,10 +177,10 @@ button {
         color: #2e2f42;
         text-transform: capitalize;
 }
-.portf-list {
+.portf-menu {
     background-color: #fff;
 }
-.portf-list-header {
+.portf-menu-header {
         font-family: inherit;
         font-weight: 500;
         font-size: 20px;
@@ -183,7 +188,7 @@ button {
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
-.portf-list-content {
+.portf-menu-content {
         font-family: inherit;
         font-weight: 400;
         font-size: 16px;
