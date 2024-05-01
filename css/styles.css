@@ -24,9 +24,6 @@ img {
     height: auto;
 }
 
-button {
-    cursor: pointer;
-}
 
 h1,
 h2,
@@ -163,6 +160,8 @@ p {
         margin: 0 auto;
 }
 .hero-button {
+        display: block;
+        padding: 16px 32px;
         font-family: inherit;
         font-weight: 500;
         font-size: 16px;
@@ -170,6 +169,11 @@ p {
         letter-spacing: 0.04em;
         color: #fff;
         cursor: pointer;
+        background-color: #4d5ae5;
+        border-radius: 4px;
+        border: none;
+        min-width: 169px;
+        margin: 48px auto;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -178,6 +182,33 @@ p {
 
 
 
+.visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+}
+
+.sect-benf {
+        background-color: #f4f4fd;
+}
+
+.benf-menu {
+        display: flex;
+        gap: 24px;
+        background-color: #f4f4fd;
+}
+
+.benf-menu-item {
+        width: calc((100% - 72px) / 4);
+}
+
 .benf-header {
         font-family: inherit;
         font-weight: 500;
@@ -185,6 +216,7 @@ p {
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin-bottom: 8px;
 }
 .benf-content {
         font-family: inherit;
@@ -198,7 +230,7 @@ p {
 
 
 .t-sect {
-    background: #f4f4fd;
+    background-color: #f4f4fd;
 }
 .t-header {
         font-weight: 700;
@@ -208,6 +240,7 @@ p {
         text-align: center;
         color: #2e2f42;
         text-transform: capitalize;
+        margin-bottom: 72px;
 }
 .t-menu {
     background-color: #fff;
