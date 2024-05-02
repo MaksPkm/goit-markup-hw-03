@@ -263,6 +263,10 @@ p {
         
 }
 
+.t-container {
+        padding: 32px 0;
+}
+
 .t-names {
         font-family: inherit;
         font-weight: 500;
