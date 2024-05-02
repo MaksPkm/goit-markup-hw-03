@@ -9,7 +9,6 @@ ul, ol {
     list-style-type: none;
     margin-top: 0;
     margin-bottom: 0;
-    margin-left: 0;
     padding-left: 0;
 }
 
@@ -64,25 +63,30 @@ p {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        flex-direction: row;
+        
 }
 
 
 .navig {
         display: flex;
         align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
 }
 
 
 .nav-page-menu {
         display: flex;
         gap: 40px;
+        flex-direction: row;
 }
 
 
 .address-menu {
         display: flex;
         gap: 40px;
-        margin-left: auto;
+        flex-direction: row;
 }
 
 .logo {
@@ -118,11 +122,6 @@ p {
 }
   
 
-
-.address {
-        margin-left: 332px;
-    font-style: normal;
-}
 
 .addr-links {
        font-family: inherit;
@@ -241,7 +240,7 @@ p {
 .main-t-menu {
         display: flex;
         gap: 24px;
-        width: calc((100%-72px)/4);
+        flex-basis: calc((100%-72px)/4);
         border-radius: 0 0 4px 4px;
 }
 .t-menu {
@@ -298,6 +297,7 @@ p {
         text-align: center;
         color: #2e2f42;
         text-transform: capitalize;
+        margin-bottom: 72px;
 }
 .portf-menu {
     background-color: #fff;
