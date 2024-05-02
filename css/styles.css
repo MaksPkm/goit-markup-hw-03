@@ -52,7 +52,7 @@ p {
 }
 
 .title {
-        padding-top: 120px;
+        
         padding-bottom: 72px;
 }
 
@@ -141,6 +141,7 @@ p {
 
 
 
+
 .hero-sect {
     background-color: #2e2f42;
     max-width: 1440px;
@@ -179,6 +180,7 @@ p {
 .hero-button:focus {
     background-color: #404BBF;
 }
+
 
 
 
@@ -229,8 +231,26 @@ p {
 
 
 
+
 .t-sect {
     background-color: #f4f4fd;
+}
+.list-team {
+        background-color: #fff;
+}
+.main-t-menu {
+        display: flex;
+        gap: 24px;
+        width: calc((100%-72px)/4);
+        border-radius: 0 0 4px 4px;
+}
+.t-menu {
+        background-color: #FFFFFF;
+        width: calc((100%-72px)/4);
+        border-radius: 0 0 4px 4px;
+}
+.t-menu-img {
+        margin-bottom: 32px;
 }
 .t-header {
         font-weight: 700;
@@ -242,9 +262,7 @@ p {
         text-transform: capitalize;
         margin-bottom: 72px;
 }
-.t-menu {
-    background-color: #fff;
-}
+
 .t-names {
         font-family: inherit;
         font-weight: 500;
@@ -253,7 +271,8 @@ p {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
-}
+        margin-bottom: 8px;
+} 
 .t-position {
         font-family: inherit;
         font-weight: 400;
@@ -263,6 +282,10 @@ p {
         text-align: center;
         color: #434455;
 }
+.t-menu-text {
+        padding: 32px 0;
+}
+
 
 
 
@@ -278,6 +301,15 @@ p {
 }
 .portf-menu {
     background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.portf-bord {
+        padding: 32px 16px;
+        border: 1px solid #e7e9fc;
+        border-top: none;
 }
 .portf-menu-header {
         font-family: inherit;
@@ -286,6 +318,7 @@ p {
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin-bottom: 8px;
 }
 .portf-menu-content {
         font-family: inherit;
@@ -295,11 +328,18 @@ p {
         letter-spacing: 0.02em;
         color: #434455;
 }
+.portf-menu-item {
+        flex-basis: 360px;
+        width: calc((100% - 48px) / 3);
+}
+
+
 
 
 
 .footer-sect {
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 .footer-logo-part {
         font-family: "Raleway", sans-serif;
@@ -317,4 +357,9 @@ p {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
+        max-width: 264px;
+}
+.f-logo {
+        display: inline-block;
+        margin-bottom: 16px;
 }
