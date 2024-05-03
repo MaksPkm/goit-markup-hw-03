@@ -50,10 +50,6 @@ p {
         padding-bottom: 120px;
 }
 
-.title {
-        
-        padding-bottom: 72px;
-}
 
 
 .header-bord {
@@ -233,7 +229,7 @@ p {
 
 
 .t-sect {
-    background-color: #fff;
+    background-color: #F4F4FD;
 }
 .list-team {
         background-color: #fff;
@@ -260,12 +256,10 @@ p {
         text-align: center;
         color: #2e2f42;
         text-transform: capitalize;
+        margin-bottom: 72px;
         
 }
 
-.t-container {
-        padding: 32px 0;
-}
 
 .t-names {
         font-family: inherit;
@@ -286,7 +280,9 @@ p {
         text-align: center;
         color: #434455;
 }
-
+.t-menu-text {
+        padding: 32px 0;
+}
 
 
 
@@ -300,6 +296,7 @@ p {
         text-align: center;
         color: #2e2f42;
         text-transform: capitalize;
+        margin-bottom: 72px;
         
 }
 .portf-menu {
