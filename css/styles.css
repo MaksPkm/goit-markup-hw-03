@@ -194,13 +194,12 @@ p {
 }
 
 .sect-benf {
-        background-color: #f4f4fd;
+        background-color: #fff;
 }
 
 .benf-menu {
         display: flex;
         gap: 24px;
-        background-color: #f4f4fd;
 }
 
 .benf-menu-item {
@@ -229,7 +228,7 @@ p {
 
 
 .t-sect {
-    background-color: #fff;
+    background-color: #f4f4fd;
 }
 
 .main-t-menu {
