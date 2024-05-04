@@ -229,11 +229,9 @@ p {
 
 
 .t-sect {
-    background-color: #F4F4FD;
+    background-color: #fff;
 }
-.list-team {
-        background-color: #fff;
-}
+
 .main-t-menu {
         display: flex;
         gap: 24px;
@@ -245,9 +243,7 @@ p {
         width: calc((100%-72px)/4);
         border-radius: 0 0 4px 4px;
 }
-.t-menu-img {
-        margin-bottom: 32px;
-}
+
 .t-header {
         font-weight: 700;
         font-size: 36px;
